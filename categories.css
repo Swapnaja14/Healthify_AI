@@ -1,10 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-
 body {
     /* background-image: linear-gradient(90deg, #cdb4db, #ffc8dd, #ffafcc, #bde0fe, #a2d2ff); */
     background-image: radial-gradient(#cdb4db, #ffc8dd, #ffafcc, #bde0fe, #a2d2ff);
@@ -13,10 +6,6 @@ body {
     align-items: center;
     height: 100vh;
     
-}
-
-body {
-    font-family: Arial, sans-serif;
 }
 
 .navbar {
@@ -42,9 +31,7 @@ body {
     justify-content: space-between;
     align-items: center;
     /* background-color: #333; */
-    padding: 10px;
-
-    
+    padding: 10px;    
 }
 
 .navbar p#MindMatters {
@@ -131,70 +118,6 @@ body {
     border: 1px solid black;
 }
 
-.section1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    background-color: #fff0f3;
-    height: 200px;
-    width: 100vw;
-    color: gray;
-}
-
-.sec1_left {
-    height: 200px;
-    width: 40vw;
-    font-size: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 5%;
-}
-
-.sec1_right {
-    height: 200px;
-    width: 60vw;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-right: 5%;
-}
-
-
-.features {
-    display: flex;
-}
-
-#btn {
-    border: 2px solid lightgrey;
-    border-radius: 20%;
-    padding: 20px;
-    margin: 30px;
-    font-size: 30px;
-    text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    height: 120px;
-    width: 120px;
-    
-}
-#btn:hover {
-    border: 2px solid gray;
-}
-
-
-body {
-  color: white;
-  font-family: "Lato";
-  font-weight: light;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: linear-gradient(150deg, #e6d3f9 0%, #e6d3f9 50%, #cea0f1 50%, #cea0f1 100%);
-}
 
 .container {
     margin: 100px 0 0 200px;
@@ -202,7 +125,7 @@ body {
     height: 450px;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .container img {
@@ -216,17 +139,5 @@ body {
 
 .container img:hover {
     width: 110%;
-}
-
-#Click_to_explore {
-    margin-top: 10%;
-    height: 10%;
-    width: 30%;
-    border-radius: 45%;
-    background-color: #ffd6ff;
-    font-size: larger;
-}
-
-#Click_to_explore:hover {
-    background-color: #b8c0ff;
+    height: 110%;
 }
