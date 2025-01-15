@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #F8F8E7;
+}
+header {
+    background-color: #a3a380;
+    padding: 20px;
+    color: #2D2D2D;
+}
+
+
+.typewriter 
+
+#introduction {
+    background-color: #d6ce93;
+}
+
+#guided-meditations {
+    background-color: #d6ce93;
+}
+
+#breathing-exercises {
+    background-color: #efebce;
+}
+
+#gratitude-journal {
+    background-color: #d8a48f;
+}
+
+#gratitude-journal h2 {
+    color: #F8F8E7;
+}
+
+#mood-suggestions {
+    background-color: #bb8588;
+}
+
+#mood-suggestions h2 {
+    color: #F8F8E7;
+}
+
+h1, h2 {
+    color: #2e8b57;
+}
+
+/* Guided Meditations Section */
+#guided-meditations button {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Breathing Exercises Section */
+#breathing-circle {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #2e8b57;
+    border-radius: 50%;
+    animation: breathe 12s infinite;
+}
+
+@keyframes breathe {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+}
+
+/* Gratitude Journal Section */
+#journal-input {
+    width: 80%;
+    height: 100px;
+    margin: 10px 0;
+}
+
+#saved-entries {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+/* Mood Suggestions Section */
+#mood {
+    padding: 5px;
+    margin: 10px;
+}
+
+button {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5f9ea0;
+}

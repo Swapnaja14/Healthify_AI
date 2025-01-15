@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meditation Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="typewriter">
+        <h1>Meditation Zone</h1>
+    </div>
+    <p>Find your peace and focus.</p>
+  </header>
+
+  <!-- Timer Section -->
+  <section class="timer-section">
+    <h2>Set Your Timer</h2>
+    <label for="timer">Duration:</label>
+    <select id="timer">
+      <option value="2">2 minutes</option>
+      <option value="5">5 minutes</option>
+      <option value="10">10 minutes</option>
+    </select>
+    <button onclick="startTimer()">Start Timer</button>
+    <p id="timer-display"></p>
+  </section>
+
+  <!-- Breathing Exercise -->
+  <section class="breathing-section">
+    <h2>Breathing Exercise</h2>
+    <div id="breathing-circle"></div>
+  </section>
+
+  <!-- Quote Carousel -->
+  <section class="quote-section">  
+    <h2>Motivational Quotes</h2>
+    <div id="quote-carousel"></div>
+  </section>
+
+  <!-- Background Sounds -->
+  <section class="sound-section">
+    <h2>Ambient Sounds</h2>
+    <audio id="bg-sound" loop>
+      <source src="DreamingJourneyIIGalaxyTones.mp3.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="toggleSound()">Play Ambient Sound</button>
+  </section>
+
+  <!-- Guided Meditation -->
+  <section class="meditation-section">
+    <h2>Guided Meditation</h2>
+    <audio controls>
+      <source src="#" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <!-- Quick Tips -->
+  <section class="tips-section">
+    <h2>Quick Tips</h2>
+    <div onclick="toggleTips()">Click for Tips</div>
+    <ul id="tips" style="display: none;">
+      <li>Sit comfortably with your back straight.</li>
+      <li>Focus on your breathing.</li>
+      <li>Let thoughts pass without judgment.</li>
+    </ul>
+  </section>
+
+  <!-- Interactive Image -->
+  <section class="interactive-image-section">
+    <h2>Relaxing Visuals</h2><br>
+    <img src="./images/image1.jpeg" alt="roses" class="interactive-image">
+    <img src="./images/image2.jpeg" alt="abstract" class="interactive-image">
+    <img src="./images/image3.jpeg" alt="snowyrange" class="interactive-image">
+    <img src="./images/image4.jpeg" alt="calmbeach" class="interactive-image">
+    <img src="./images/image5.jpeg" alt="candies" class="interactive-image">
+  </section>
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
