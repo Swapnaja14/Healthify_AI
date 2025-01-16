@@ -50,7 +50,10 @@ function toggleSound() {
   const quotes = [
     "Meditation brings wisdom; lack of meditation leaves ignorance.",
     "Calm your mind, and the rest will follow.",
-    "Inner peace begins when you choose to let go of distractions."
+    "Inner peace begins when you choose to let go of distractions.",
+    "Quiet the mind, and the soul will speak.",
+    "The thing about meditation is: You become more and more you."
+
   ];
   let currentQuote = 0;
   
