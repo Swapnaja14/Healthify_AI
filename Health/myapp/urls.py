@@ -20,7 +20,7 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('help/', views.help, name='help'),
     # Authentication
-    path('login/', views.login, name='login'),
+    path('login/', views.LoginView, name='login'),
     path('register/', views.RegisterView, name='register'),
     path('index2/', views.index2, name='index2'),
     path('logout/', views.LogoutView, name='logout'),

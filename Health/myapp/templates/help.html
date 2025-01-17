@@ -1,20 +1,21 @@
+{% load static%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{% static 'help.css' %}">
 </head>
 <body>
 
     <div class="image">
-        <img src="image.png" alt="Help Image">
+        <img src="{% static "help.png" %}" alt="Help Image">
     </div>
     
     <header>
         <h1>Help Section</h1>
-        <p>Your guide to navigating and using the AI Health Companion effectively.</p>
+        <p>Your guide to navigating and using the HealthSphere effectively.</p>
     </header>
 
     <main>
@@ -45,7 +46,7 @@
             <div class="contact-info">
                 <p>If you need further assistance, we're here to help!</p>
                 <ul>
-                    <li><strong>Email Support:</strong> <a href="mailto:support@aihealthcompanion.com">support@aihealthcompanion.com</a></li>
+                    <li><strong>Email Support:</strong> <a href="mailto:support@healthsphere.com">support@aihealthcompanion.com</a></li>
                     <li><strong>Live Chat:</strong> Use the in-app chatbot for instant help.</li>
                     <li><strong>Community Forum:</strong> Join discussions to get peer support and advice.</li>
                 </ul>
