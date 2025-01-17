@@ -16,6 +16,8 @@ Windows:
 Linux/Mac:
 source .venv/bin/activate
 
+write cd Health in your terminal to navigate the main project
+
 Install the required modules from the repository
 
 Set Up the Database
