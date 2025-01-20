@@ -1,24 +1,16 @@
-Installation Process
+Installation Process : 
 Install Python and Django
 Ensure Python (at least version 3.x) is installed on your system.
 python --version
 If not, download and install it from python.org.
 
-Install Django using pip:
+Install Django these following modules:
 pip install django
-
-Create and Activate a Virtual Environment
-A virtual environment helps isolate dependencies for your project:
-python -m venv .venv
-Activate the virtual environment:
-Windows:
-.venv\Scripts\activate
-Linux/Mac:
-source .venv/bin/activate
+pip install python-dotenv
+pip install requests
+pip install django-mathfilters
 
 write cd Health in your terminal to navigate the main project
-
-Install the required modules from the repository
 
 Set Up the Database
 Run migrations to set up the database schema:
